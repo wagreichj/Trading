@@ -17,7 +17,7 @@ from ib_insync import IB, util, Stock, MarketOrder
 # =========================
 IB_HOST      = "127.0.0.1"
 IB_PORT      = 7497            # 7497=paper, 7496=live
-IB_CLIENT_ID = 17
+IB_CLIENT_ID = DUM518451
 
 TZ      = gettz("America/New_York")
 RUN_AT  = time(15, 45)         # 3:45pm ET
