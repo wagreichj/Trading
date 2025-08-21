@@ -16,11 +16,11 @@ from ib_insync import IB, util, Stock, MarketOrder
 # CONFIG (edit as needed)
 # =========================
 IB_HOST      = "127.0.0.1"
-IB_PORT      = 7497            # 7497=paper, 7496=live
+IB_PORT      = 4002            # 4002=paper, 7496=live
 IB_CLIENT_ID = DUM518451
 
 TZ      = gettz("America/New_York")
-RUN_AT  = time(11, 45)         # 3:45pm ET
+RUN_AT  = time(13, 32)         # 3:45pm ET
 UNIVERSE = ["TQQQ","SQQQ","SPY","BSV","UVXY","UPRO"]  # tradeable tickers
 
 # Strategy thresholds (FTLT RSI14 79/31)
